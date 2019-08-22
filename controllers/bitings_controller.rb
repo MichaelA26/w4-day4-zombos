@@ -1,6 +1,6 @@
 require( 'sinatra' )
 require( 'sinatra/contrib/all' )
-require( 'pry-byebug' )
+require( 'pry' )
 require_relative( '../models/biting.rb' )
 require_relative( '../models/victim.rb' )
 require_relative( '../models/zombie.rb' )

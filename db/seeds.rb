@@ -1,7 +1,7 @@
 require_relative( "../models/zombie.rb" )
 require_relative( "../models/victim.rb" )
 require_relative( "../models/biting.rb" )
-require("pry-byebug")
+require("pry")
 
 Biting.delete_all()
 Zombie.delete_all()
